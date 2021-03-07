@@ -4,11 +4,27 @@
     <title>podrez vody</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function askForVariant() {
+            var subtitlesAnswear = confirm("Czy chcesz ogłądać wersję z czatem?")
+
+            if (subtitlesAnswear == true) {
+                window.location.href = "../codegeass/chat.html";
+            }
+
+            if (subtitlesAnswear == false) {
+                window.location.href = "../codegeass/normal.html";
+            }
+        }
+    </script>
 </head>
 <body>
     <h1>vody kanalu podrez_</h1>
     <div class="wrapper">
         <a class="first after" href="https://www.youtube.com/watch?v=BIvPh5SjX8E">gopnik z czatem</a>
+    </div>
+    <div class="wrapper">
+        <a class="first after" href="#" onclick="askForVariant()">code geass</a>
     </div>
     <div style="margin-top: 60%; margin-bottom: 0;" class="wrapper">
         <a href="../index.html">sekretny link</a>

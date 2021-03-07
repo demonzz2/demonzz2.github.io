@@ -136,3 +136,7 @@ a.before:hover:before,a.after:hover:after{
 .square:hover a:before,.square:hover a:after{
   width:100%;
 }
+.container.body-content {
+  padding-bottom: 110px;
+  height: 1000px; /* Force height on body */
+}
